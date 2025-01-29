@@ -273,6 +273,8 @@ PlayerSettings:
   AndroidReportGooglePlayAppDependencies: 1
   m_BuildTargetIcons: []
   m_BuildTargetPlatformIcons:
+<<<<<<< HEAD
+=======
   - m_BuildTarget: iPhone
     m_Icons:
     - m_Textures: []
@@ -370,6 +372,7 @@ PlayerSettings:
       m_Height: 1024
       m_Kind: 4
       m_SubKind: App Store
+>>>>>>> 6e56c8676bf9d06112ca5b7df2567a7e930eb9e0
   - m_BuildTarget: Android
     m_Icons:
     - m_Textures: []
