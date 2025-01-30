@@ -8768,7 +8768,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4261223766864655694, guid: 02ee02fc36e9d7649bc15829c0148dfe, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 4261223766864655694, guid: 02ee02fc36e9d7649bc15829c0148dfe, type: 3}
       propertyPath: m_LocalScale.x
@@ -18225,6 +18225,7 @@ GameObject:
   - component: {fileID: 1728997890}
   - component: {fileID: 1728997889}
   - component: {fileID: 1728997888}
+  - component: {fileID: 1728997891}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -18298,14 +18299,26 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1728997887}
-  m_LocalRotation: {x: -0.09179819, y: 0.970812, z: 0.11434897, w: -0.18979335}
-  m_LocalPosition: {x: 3.1674144, y: 1.6820257, z: 29.118221}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 3.26, z: 30.43}
   m_LocalScale: {x: 0.055806015, y: 0.055806004, z: 0.05580601}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 245
-  m_LocalEulerAnglesHint: {x: -13.789, y: 202.252, z: 3.69}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!114 &1728997891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1728997887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1d146a5bd9d67948a7f8346c5d2d790, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1735029600
 PrefabInstance:
   m_ObjectHideFlags: 0
